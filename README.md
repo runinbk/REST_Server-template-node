@@ -22,10 +22,30 @@ $ npm run start
 
 For another commands look to package.json
 
-## Set enviroment for BE 
+## Set enviroment 
 
 - Rename .env.example to .env
 
+- Change mongoDB environment variables
 ```bash
+	.
+	.
+	.
+		
+	MONGODB_CNN=mongodb+srv://user_node_cafe:R5bsf6A7FcjE8Rr4@miclustercafe.y7m8dsa.mongodb.net/cafeDB
 
+	USER=user_node_cafe
+	PASS=R5bsf6A7FcjE8Rr4
+	.
+	.
+	.
+```
+
+- Change encryption key for your JWT
+```bash
+	.
+	.
+	.
+
+	SECRETORPRIVATEKEY=Est03sMyPub1cK3y
 ```
